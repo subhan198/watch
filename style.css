@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Allison&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+    
+
+}
+nav{
+    width: 80%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+
+}
+.navlinks{
+    display: flex;
+    list-style:none;
+
+}
+
+.navlinks li a{
+    text-decoration: none;
+    margin: 12px;
+    color: darkslategray;
+ 
+
+}
+
+.section{
+    width: 100%;
+    min-height: 100vh;
+}
+header{
+    width: 80%;
+    height: auto;
+    display: flex;
+    margin:auto;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.header-image{
+    width: 800px;
+}
+.logo{
+    font-size:70px ;
+    color: darkblue;
+    font-family:"Allison", serif;
+}
+.header-heading{
+    font-size: 4rem;
+}
+
+.product{
+    font-size: 1rem;
+}
+.first-btn,.second-btn{
+    border: none;
+    font-size: 15px;
+    margin-top: 15px;
+    transition: transform .5s ease-in-out;
+}
+.first-btn{
+    background-color: darkgray;
+    width: 90px;
+    height: 40px;
+}
+.second-btn{
+    background-color:rgb(3, 3, 42);
+    color:whitesmoke;
+    font-size: 15px;
+    width: 120px;
+    height: 40px;
+}
+.first-btn:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.second-btn:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+/* section two */
+.sectioncontainer{
+    display: flex;
+    justify-content:space-around;
+    background-color:peachpuff;
+    width:100%;
+    height:400px;
+    transform: skew(-10deg);
+    margin-left:40px;
+    margin-right:40px;
+    
+}
+.h3{
+    margin-top: 20px;
+margin-left: 20px;
+}
+.para{
+    font-size: 20px;
+    margin-left: 20px;
+}
+.section-image{
+    width:420px;
+}
+.sec-btn{
+    width: 150px;
+    height:50px;
+    border: none;
+    font-size: 15px;
+    margin-top: 15px;
+    transition: transform .5s ease-in-out;
+    background-color:rgb(154, 96, 45);
+   margin-left: 20px;
+
+}
+.sec-btn:hover{
+    transform: scale(1.1);
+}
+
+.sec-heading{
+    font-size: 100px;
+    font-family:"Allison", serif;
+    margin-left: 20px;
+}
+/* section3 */
+.section-third{
+    width:100% ; 
+
+}
+.section-TexT{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+.back-color{
+    display: flex;
+    column-gap: 30px;
+    margin-top: 30px;  
+}
+.section-imge{
+    display: flex;
+   justify-content: center;
+
+
+
+}
+.sec-img1{
+width: 250px;
+display: flex;
+
+}
+.cardcontainer{
+    border: 1px solid;
+    border-color: transparent;
+    text-align: center;
+    box-shadow: 10px 15px 20px;
+}
+.btn1{
+    width: 100px;
+    height: 30px;
+    background-color:whitesmoke;
+    box-shadow: 4px 5px 15px;
+    border: none;
+
+}
+
+.btn1:hover{
+    transform: scale(1.1);
+    transition: transform .5s ease-in-out;
+
+}
+.TX1{
+    font-size:20px;
+}
+/* section slider */
+
+.first-item{
+    display: flex;
+    justify-content: center;
+
+}
+.imge img{
+    display: flex;
+    align-items: center;
+    width: 490px;
+    background-position: center;
+    background-size: cover;
+
+}
+
+/* ---media query--- */
+@media screen and (max-width:500px) {
+    /* section one */
+    .header-image{
+        margin-top: 20px;
+        width:380px;
+    }
+    .logo{
+        margin-right: 14px;
+    }
+
+    .navlinks li a{
+        margin:9px;
+        display: flex;
+        margin-top:20px;
+    
+    }
+
+    
+    .header-heading{
+        margin-top: 30px;
+        font-size: 3rem;
+
+    }
+    header{
+        display: flex;
+        flex-direction:column-reverse;
+      
+    }
+    /* sectitwo */
+    .sectioncontainer{
+        display: flex;
+        flex-direction: column;
+        transform: skew(-4deg);
+        margin-top: 20px;
+
+    }
+    .para{
+        font-size: 18px;
+        margin-left: 20px;
+    }
+    .section-image{
+        width:500px;
+        display: flex;
+        margin-top: 40px;
+        
+}
+.sec-btn{
+    margin-top: 40px;
+}
+.h3{
+    margin-top: auto;
+}
+}
+    
