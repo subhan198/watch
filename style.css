@@ -10,14 +10,14 @@
     
 
 }
+
 nav{
-    width: 80%;
-    height: 70px;
+    width: 100%;
+    height: 90px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: auto;
-
+    background-color:orangered;
 }
 .navlinks{
     display: flex;
@@ -49,10 +49,47 @@ header{
 .header-image{
     width: 800px;
 }
-.logo{
-    font-size:70px ;
-    color: darkblue;
-    font-family:"Allison", serif;
+.logo img{
+    width: 110px;
+    align-items: center;
+    margin-left: 150px; 
+}
+.search{
+    width: 500px;
+}
+.second{
+    display: flex;
+    justify-content: center;
+    column-gap: 5px;
+    
+   
+}
+.box-img{
+    border: 1px solid;
+}
+
+.box-img img{
+    width: 320px;
+    height: 260px;  
+}
+.forth{
+    margin-top: 50px;
+}
+h1{
+    margin-left: 100px;
+}
+.icon{
+    width: 30px;
+}
+.bar{
+    display: flex;
+    
+}
+.cart{
+    width: 30px;
+    display: flex;
+    float: right;
+
 }
 .header-heading{
     font-size: 4rem;
