@@ -48,6 +48,7 @@ header{
 }
 .header-image{
     width: 800px;
+    margin-top: 20px;
 }
 .logo img{
     width: 110px;
@@ -72,8 +73,13 @@ header{
     width: 320px;
     height: 260px;  
 }
+.line{
+    margin-left:180px;
+    color: gray;
+
+}
 .forth{
-    margin-top: 50px;
+    margin-top: 30px;
 }
 h1{
     margin-left: 100px;
@@ -226,13 +232,87 @@ display: flex;
 
 }
 .imge img{
+    margin-top: 20px;
     display: flex;
     align-items: center;
     width: 490px;
     background-position: center;
     background-size: cover;
+}
+
+/* contact section */
+form{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    font-size: 20px;
+    color: bisque;
+    background-image: url(images/img4.jpg);
+background-position: center;
+background-size: cover;
 
 }
+.box{
+    margin-top: 250px;
+    margin-bottom: 200px;
+    border: 1px solid; 
+    width: 400px;
+    background-image: url(images/img8.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.box a{
+    display: flex;
+    color: rgb(160, 160, 243);
+
+
+}
+
+label input{
+    display: flex;
+    text-align: center;
+    border-radius: 5px;
+}
+label textarea{
+    width: 300px;
+    height: 100px;
+}
+.box h3{
+    text-align: center;
+
+}
+/* footer  */
+
+footer{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+    width: 100%px;
+    background-color: gray;
+
+
+}
+.start{
+    margin-left:299px;
+
+}
+.next-col{
+    margin-right: 200px;
+}
+.ice{
+    margin-right: 400px;
+    margin-top: 30px;
+}
+ul li{
+    list-style: none;
+}
+h4{
+    color: rgb(26, 26, 78);
+}
+
+
+
+
 
 /* ---media query--- */
 @media screen and (max-width:500px) {
@@ -241,33 +321,41 @@ display: flex;
         margin-top: 20px;
         width:380px;
     }
-    .logo{
-        margin-right: 14px;
-    }
-
-    .navlinks li a{
-        margin:9px;
-        display: flex;
-        margin-top:20px;
     
+    nav{
+        width: 1000px;
+        background-color: orangered;
+    }
+   
+    .navlinks li a{
+        display: none;
     }
 
     
     .header-heading{
         margin-top: 30px;
         font-size: 3rem;
+        display: contents;
 
     }
     header{
         display: flex;
         flex-direction:column-reverse;
+      margin-left: 200px;
+      margin-top: 40px;
       
+    }
+    .first-item{
+        width: 1000px;
+
+    }
+    .second{
+        margin-left: 165px;
     }
     /* sectitwo */
     .sectioncontainer{
         display: flex;
         flex-direction: column;
-        transform: skew(-4deg);
         margin-top: 20px;
 
     }
@@ -276,10 +364,11 @@ display: flex;
         margin-left: 20px;
     }
     .section-image{
-        width:500px;
-        display: flex;
-        margin-top: 40px;
-        
+        display:none;
+}
+.section-image{
+    display: flex;
+    margin-left: 400px;
 }
 .sec-btn{
     margin-top: 40px;
@@ -287,5 +376,6 @@ display: flex;
 .h3{
     margin-top: auto;
 }
+
 }
     
